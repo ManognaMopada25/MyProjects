@@ -1,0 +1,13 @@
+(globalThis.TURBOPACK_CHUNK_LISTS || (globalThis.TURBOPACK_CHUNK_LISTS = [])).push({
+    script: typeof document === "object" ? document.currentScript : undefined,
+    chunks: [
+  "static/chunks/src_ce163cfb._.js",
+  "static/chunks/node_modules_recharts_es6_util_8da40836._.js",
+  "static/chunks/node_modules_recharts_es6_state_846a2fe3._.js",
+  "static/chunks/node_modules_recharts_es6_component_26ece551._.js",
+  "static/chunks/node_modules_recharts_es6_cartesian_cc971a1f._.js",
+  "static/chunks/node_modules_recharts_es6_5ed54b90._.js",
+  "static/chunks/node_modules_31547bc1._.js"
+],
+    source: "dynamic"
+});

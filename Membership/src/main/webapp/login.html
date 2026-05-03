@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Login</title>
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+<body>
+    <h2>Membership Management System - Login</h2>
+   <form action="LoginServlet" method="post">
+    <label>Membership ID:</label>
+    <input type="text" name="membershipId" required>  <!-- 🔹 Ensure field name matches `request.getParameter("membershipId")` -->
+
+    <label>Password:</label>
+    <input type="password" name="password" required>  <!-- 🔹 Ensure field name matches `request.getParameter("password")` -->
+
+    <input type="submit" value="Login">
+</form>
+
+    
+</body>
+</html>
