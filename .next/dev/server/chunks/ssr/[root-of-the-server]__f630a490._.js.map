@@ -1,6 +1,0 @@
-{
-  "version": 3,
-  "sources": [],
-  "sections": [
-    {"offset": {"line": 18, "column": 0}, "map": {"version":3,"sources":["file:///D:/Hod%20Dashboard/src/app/login/page.js"],"sourcesContent":["import LoginForm from '@/components/LoginForm';\r\n\r\nexport default function LoginPage() {\r\n  return (\r\n    <>\r\n      <style>{`\r\n        * {\r\n          margin: 0;\r\n          padding: 0;\r\n          box-sizing: border-box;\r\n        }\r\n        body {\r\n          font-family: Arial, Helvetica, sans-serif;\r\n        }\r\n      `}</style>\r\n      <LoginForm />\r\n    </>\r\n  );\r\n}\r\n"],"names":[],"mappings":";;;;;;;;;;;;AAEe,SAAS;IACtB,qBACE;;0BACE,8OAAC;0BAAO,CAAC;;;;;;;;;MAST,CAAC;;;;;;0BACD,8OAAC;;;;;;;AAGP"}}]
-}
